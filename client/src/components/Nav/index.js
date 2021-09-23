@@ -3,11 +3,11 @@ import "./style.css";
 
 function Nav() {
     return (
-        <nav className="navbar navbar-dark bg-dark">
+        <nav className="navbar navbar-dark bg-primary">
             <a className="navbar-brand" href="/">Google Books</a>
-            <div className="navbar-nav">
-                <a classname="nav-item nav-link" href="/">Search</a>
-                <a classname="nav-item nav-link" href="/saved">Saved</a>
+            <div className="navbar-right">
+                <a className="navbar-brand" href="/">Search</a>
+                <a className="navbar-brand" href="/saved">Saved</a>
             </div>
         </nav>
     );

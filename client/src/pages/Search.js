@@ -47,17 +47,25 @@ function Search() {
                 <Row>
                     <Col size="md-12">
                         <form>
-                            <Input
-                                name="bookSearch"
-                                value={bookSearch}
-                                onChange={handleInputChange}
-                                placeholder="Search by keyword, title, or author"
-                            />
-                            <Button
-                                className="input-lg"
-                                type="success"
-                                onClick={formSubmitHandler}
-                            >Search</Button>
+                            <Container>
+                                <Row>
+                                    <Col size="sm-9">
+                                        <Input
+                                        name="bookSearch"
+                                        value={bookSearch}
+                                        onChange={handleInputChange}
+                                        placeholder="Search by keyword, title, or author"
+                                        />
+                                    </Col>
+                                    <Col size="sm-3">
+                                        <Button
+                                        className="input-lg"
+                                        type="success"
+                                        onClick={formSubmitHandler}
+                                        >Search</Button>
+                                    </Col>
+                                </Row>
+                            </Container>
                         </form>
                     </Col>
                 </Row>

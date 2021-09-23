@@ -36,7 +36,7 @@ function Saved() {
                 <Row>
                     <Col size="md-12">
                         {!savedBooks.length ? (
-                            <h2 className="text-center">No Bookds to Display</h2>
+                            <h2 className="text-center">No Books to Display</h2>
                         ) : (
                             <BookList type="Saved Books">
                                 {savedBooks.map(book => {

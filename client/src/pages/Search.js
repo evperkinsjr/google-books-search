@@ -64,7 +64,7 @@ function Search() {
                 <Row>
                     <Col size="md-12">
                         {!books.length ? (
-                            <h2 className="text-center">No Bookds to Display</h2>
+                            <h2 className="text-center">No Books to Display</h2>
                         ) : (
                             <BookList type="Results">
                                 {books.map((book, index) => {

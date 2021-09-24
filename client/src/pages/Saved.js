@@ -43,7 +43,7 @@ function Saved() {
                                     return (
                                         <BookListItem
                                             key={book._id}
-                                            thumbnail={book.thumbnail}
+                                            thumbnail={book.image}
                                             title={book.title}
                                             authors={book.authors}
                                             description={book.description}

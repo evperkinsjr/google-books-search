@@ -35,7 +35,7 @@ function Search() {
             title: books[event.target.id].volumeInfo.title,
             authors: books[event.target.id].volumeInfo.authors,
             description: books[event.target.id].volumeInfo.description,
-            link: books[event.target.id].volumeInfo.link
+            link: books[event.target.id].volumeInfo.previewLink
         })
         .then(() => alert('Added to Saved Books List'))
         .catch(err => console.log(err));
@@ -83,7 +83,7 @@ function Search() {
                                             title={book.volumeInfo.title}
                                             authors={book.volumeInfo.authors}
                                             description={book.volumeInfo.description}
-                                            link={book.volumeInfo.link}
+                                            link={book.volumeInfo.previewLink}
                                             index={index}
                                             onClick={saveBookHandler}
                                             buttonName="Save Book"

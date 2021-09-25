@@ -8,7 +8,7 @@ The application was deployed using Heroku.
 - [Live Application](https://salty-sands-65360.herokuapp.com/)
 - [Project Repository](https://github.com/evperkinsjr/google-books-search)
 
-
+![google-books-search-screenshot](https://user-images.githubusercontent.com/79537431/134784588-94521436-3c1c-479f-88d3-00cfd1f15969.png)
 
 
 ## Technologies Used

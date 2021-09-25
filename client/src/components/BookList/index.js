@@ -23,7 +23,8 @@ export function BookListItem({
     index,
     onClick,
     buttonName,
-    type
+    type,
+    size
 }) {
     return (
         <li className="list-group-item">
@@ -43,6 +44,7 @@ export function BookListItem({
                             id={index}
                             onClick={onClick}
                             type={type}
+                            size={size}
                             className={"input-lg"}>
                             {buttonName}
                         </Button>

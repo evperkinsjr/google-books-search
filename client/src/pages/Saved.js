@@ -50,6 +50,7 @@ function Saved() {
                                             link={book.link}
                                             index={book._id}
                                             type="danger"
+                                            size="md"
                                             onClick={handleDeleteBook}
                                             buttonName="Delete"
                                         />  

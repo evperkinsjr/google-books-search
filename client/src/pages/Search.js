@@ -61,6 +61,7 @@ function Search() {
                                         <Button
                                         className="input-lg"
                                         type="success"
+                                        size="lg"
                                         onClick={formSubmitHandler}
                                         >Search</Button>
                                     </Col>
@@ -86,6 +87,7 @@ function Search() {
                                             link={book.volumeInfo.previewLink}
                                             index={index}
                                             type="success"
+                                            size="sm"
                                             onClick={saveBookHandler}
                                             buttonName="Save Book"
                                         />

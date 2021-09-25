@@ -1,4 +1,10 @@
+h1 {
+    color: white;
+    mix-blend-mode: difference;
+}
+
 .jumbotron {
+    background-image: url(reversed-books-background.jpg);
     min-height: 300px;
     padding-top: 100px;
 }

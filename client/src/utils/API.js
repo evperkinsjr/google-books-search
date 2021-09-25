@@ -18,7 +18,7 @@ const API = {
 
     // Deletes a book from the database
     deleteBook: function(id) {
-        return axios.delete("/api/books" + id);
+        return axios.delete("/api/books/" + id);
     }
 }
 

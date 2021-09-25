@@ -85,6 +85,7 @@ function Search() {
                                             description={book.volumeInfo.description}
                                             link={book.volumeInfo.previewLink}
                                             index={index}
+                                            type="success"
                                             onClick={saveBookHandler}
                                             buttonName="Save Book"
                                         />

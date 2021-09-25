@@ -80,7 +80,7 @@ function Search() {
                                     return (
                                         <BookListItem
                                             key={book.id}
-                                            thumbnail={!book.volumeInfo.imageLinks ? "http://placehold.it/300x300" : book.volumeInfo.imageLinks.thumbnail}
+                                            thumbnail={!book.volumeInfo.imageLinks ? "http://books.google.com/books/content?id=jaNRAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api" : book.volumeInfo.imageLinks.thumbnail}
                                             title={book.volumeInfo.title}
                                             authors={book.volumeInfo.authors}
                                             description={book.volumeInfo.description}
